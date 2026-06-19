@@ -22,12 +22,6 @@
     "text": "BRENTEX SARL — Partenaire de confiance pour le soutage maritime et les projets BTP à Douala. Demandez votre devis.",
     "link": "/contact"
   },
-  "stats": {
-    "experience": { "value": 8, "suffix": "+", "label": "Années d'expérience" },
-    "clients": { "value": 120, "suffix": "+", "label": "Clients B2B accompagnés" },
-    "projects": { "value": 250, "suffix": "+", "label": "Projets réalisés" },
-    "note": "Chiffres provisoires — à confirmer par la Direction"
-  },
   "about": {
     "history": "Fondée en 2017 à Douala, BRENTEX SARL s'est imposée comme un acteur polyvalent au service des entreprises camerounaises et internationales. De la centrale d'achat au soutage de navires, en passant par le BTP et les installations techniques, nous accompagnons nos partenaires avec rigueur et réactivité.",
     "mission": "Fournir des solutions d'approvisionnement et de réalisation fiables, conformes et réactives, pour permettre à nos clients B2B de se concentrer sur leur cœur de métier en toute sérénité.",
@@ -45,44 +39,12 @@
       { "label": "Clientèle", "value": "100 % B2B" }
     ]
   },
-  "team": [
-    {
-      "name": "Direction Générale",
-      "role": "Fondateur & Directeur Général",
-      "bio": "Pilotage stratégique et relations partenaires internationaux. [Placeholder — à compléter]",
-      "image": "/images/team/placeholder-1.jpg"
-    },
-    {
-      "name": "Direction Opérationnelle",
-      "role": "Directeur des Opérations",
-      "bio": "Coordination des chantiers, soutage et logistique portuaire. [Placeholder — à compléter]",
-      "image": "/images/team/placeholder-2.jpg"
-    },
-    {
-      "name": "Direction Commerciale",
-      "role": "Responsable Commercial B2B",
-      "bio": "Accompagnement des entreprises et armateurs. [Placeholder — à compléter]",
-      "image": "/images/team/placeholder-3.jpg"
-    }
-  ],
   "process": [
     { "step": 1, "title": "Prise de contact", "description": "Vous nous transmettez votre besoin via formulaire, email ou téléphone." },
     { "step": 2, "title": "Analyse & devis", "description": "Notre équipe étudie votre demande et vous propose une offre détaillée." },
     { "step": 3, "title": "Planification", "description": "Validation du devis, calendrier et coordination logistique ou technique." },
     { "step": 4, "title": "Exécution", "description": "Réalisation, livraison ou intervention selon les standards convenus." },
     { "step": 5, "title": "Suivi", "description": "Contrôle qualité et accompagnement post-prestation." }
-  ],
-  "testimonials": [
-    {
-      "quote": "Réactivité exemplaire pour nos opérations de soutage au port de Douala. [Témoignage placeholder]",
-      "author": "Responsable logistique — Compagnie maritime",
-      "company": "Partenaire international"
-    },
-    {
-      "quote": "Un interlocuteur fiable pour nos approvisionnements BTP. [Témoignage placeholder]",
-      "author": "Chef de projet — Entreprise de construction",
-      "company": "Client BTP"
-    }
   ],
   "legal": {
     "privacy": "BRENTEX SARL s'engage à protéger les données personnelles collectées via ce site. Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes et ne sont pas cédées à des tiers sans votre consentement. Conformément à la réglementation en vigueur, vous pouvez demander l'accès, la rectification ou la suppression de vos données en contactant brentexsarl2017@gmail.com.",

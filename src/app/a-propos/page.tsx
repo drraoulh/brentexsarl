@@ -79,26 +79,6 @@ export default function AboutPage() {
           ))}
         </div>
       </Section>
-
-      <Section>
-        <SectionHeader title="Équipe dirigeante" subtitle="[Placeholders — photos et biographies à compléter par la Direction]" />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {site.team.map((member) => (
-            <ScrollReveal key={member.name}>
-              <div className="bg-white rounded-xl shadow-md overflow-hidden">
-                <div className="relative h-56 bg-sky flex items-center justify-center">
-                  <span className="text-slate text-sm">Photo placeholder</span>
-                </div>
-                <div className="p-6">
-                  <h3 className="font-display text-lg font-bold text-primary">{member.name}</h3>
-                  <p className="text-accent text-sm font-medium">{member.role}</p>
-                  <p className="mt-2 text-slate text-sm">{member.bio}</p>
-                </div>
-              </div>
-            </ScrollReveal>
-          ))}
-        </div>
-      </Section>
     </>
   );
 }

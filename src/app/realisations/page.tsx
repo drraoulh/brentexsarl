@@ -1,9 +1,8 @@
 import Image from "next/image";
 import { createMetadata } from "@/lib/seo";
-import { getSiteData, getRealisations } from "@/lib/content";
+import { getRealisations } from "@/lib/content";
 import { Section, SectionHeader } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { Quote } from "lucide-react";
 
 const projectImages: Record<string, string> = {
   "1": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=800&q=80",
@@ -14,13 +13,12 @@ const projectImages: Record<string, string> = {
 export const metadata = createMetadata({
   title: "Réalisations",
   description:
-    "Projets référencés et témoignages clients BRENTEX SARL — soutage, BTP, électricité et plus.",
+    "Projets référencés BRENTEX SARL — soutage, BTP, électricité et plus.",
   path: "/realisations",
 });
 
 export default function RealisationsPage() {
   const projects = getRealisations();
-  const site = getSiteData();
 
   return (
     <>
@@ -28,7 +26,7 @@ export default function RealisationsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-4xl md:text-5xl font-bold text-white">Réalisations</h1>
           <p className="mt-4 text-sky text-lg max-w-2xl mx-auto">
-            Projets et partenariats — contenu placeholder en attente de validation par la Direction.
+            Projets et partenariats menés pour nos clients B2B.
           </p>
         </div>
       </section>
@@ -57,27 +55,6 @@ export default function RealisationsPage() {
                   <p className="mt-2 text-slate text-sm">{project.description}</p>
                 </div>
               </article>
-            </ScrollReveal>
-          ))}
-        </div>
-      </Section>
-
-      <Section background="white">
-        <SectionHeader
-          title="Témoignages clients"
-          subtitle="[Placeholders — témoignages réels à intégrer]"
-        />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {site.testimonials.map((t, i) => (
-            <ScrollReveal key={i}>
-              <blockquote className="bg-cream p-8 rounded-xl relative">
-                <Quote size={32} className="text-accent/30 absolute top-4 right-4" />
-                <p className="text-slate italic leading-relaxed">&ldquo;{t.quote}&rdquo;</p>
-                <footer className="mt-4">
-                  <p className="font-semibold text-primary">{t.author}</p>
-                  <p className="text-sm text-slate">{t.company}</p>
-                </footer>
-              </blockquote>
             </ScrollReveal>
           ))}
         </div>

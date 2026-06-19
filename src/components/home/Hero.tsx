@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { ArrowRight } from "lucide-react";
 
@@ -43,78 +42,5 @@ export function Hero({ tagline, description }: HeroProps) {
         </div>
       </div>
     </section>
-  );
-}
-
-interface StatItem {
-  value: number;
-  suffix: string;
-  label: string;
-}
-
-function AnimatedNumber({ value, suffix }: { value: number; suffix: string }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const animated = useRef(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !animated.current) {
-          animated.current = true;
-          const duration = 2000;
-          const start = performance.now();
-
-          const tick = (now: number) => {
-            const progress = Math.min((now - start) / duration, 1);
-            const eased = 1 - Math.pow(1 - progress, 3);
-            setCount(Math.floor(eased * value));
-            if (progress < 1) requestAnimationFrame(tick);
-          };
-
-          requestAnimationFrame(tick);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [value]);
-
-  return (
-    <span ref={ref}>
-      {count}
-      {suffix}
-    </span>
-  );
-}
-
-export function StatsCounter({
-  stats,
-  note,
-}: {
-  stats: { experience: StatItem; clients: StatItem; projects: StatItem };
-  note: string;
-}) {
-  const items = [stats.experience, stats.clients, stats.projects];
-
-  return (
-    <div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-        {items.map((stat) => (
-          <div key={stat.label} className="text-center">
-            <p className="font-display text-4xl md:text-5xl font-bold text-accent">
-              <AnimatedNumber value={stat.value} suffix={stat.suffix} />
-            </p>
-            <p className="mt-2 text-sky text-sm md:text-base">{stat.label}</p>
-          </div>
-        ))}
-      </div>
-      <p className="mt-6 text-center text-xs text-sky/60 italic">{note}</p>
-    </div>
   );
 }

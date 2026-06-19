@@ -1,4 +1,4 @@
-import { Hero, StatsCounter } from "@/components/home/Hero";
+import { Hero } from "@/components/home/Hero";
 import { ActivityPreview } from "@/components/activities/ActivityCards";
 import { Button } from "@/components/ui/Button";
 import { getSiteData, getActivities } from "@/lib/content";
@@ -13,10 +13,6 @@ export default function HomePage() {
   return (
     <>
       <Hero tagline={site.company.tagline} description={site.company.description} />
-
-      <PageSection background="navy">
-        <StatsCounter stats={site.stats} note={site.stats.note} />
-      </PageSection>
 
       <PageSection>
         <Header

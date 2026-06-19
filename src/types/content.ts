@@ -17,34 +17,15 @@ export interface Company {
   };
 }
 
-export interface StatItem {
-  value: number;
-  suffix: string;
-  label: string;
-}
-
 export interface ValueItem {
   title: string;
   description: string;
-}
-
-export interface TeamMember {
-  name: string;
-  role: string;
-  bio: string;
-  image: string;
 }
 
 export interface ProcessStep {
   step: number;
   title: string;
   description: string;
-}
-
-export interface Testimonial {
-  quote: string;
-  author: string;
-  company: string;
 }
 
 export interface SiteData {
@@ -54,12 +35,6 @@ export interface SiteData {
     text: string;
     link: string;
   };
-  stats: {
-    experience: StatItem;
-    clients: StatItem;
-    projects: StatItem;
-    note: string;
-  };
   about: {
     history: string;
     mission: string;
@@ -67,9 +42,7 @@ export interface SiteData {
     values: ValueItem[];
     keyFigures: { label: string; value: string }[];
   };
-  team: TeamMember[];
   process: ProcessStep[];
-  testimonials: Testimonial[];
   legal: {
     privacy: string;
     terms: string;

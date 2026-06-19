@@ -147,57 +147,6 @@ export default function AdminPage() {
           </section>
 
           <section className="bg-white p-6 rounded-xl shadow-md">
-            <h2 className="font-display text-xl font-bold text-primary mb-4">Statistiques (Accueil)</h2>
-            {(["experience", "clients", "projects"] as const).map((key) => (
-              <div key={key} className="grid grid-cols-3 gap-4 mb-4">
-                <input
-                  type="number"
-                  value={data.stats[key].value}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      stats: {
-                        ...data.stats,
-                        [key]: { ...data.stats[key], value: Number(e.target.value) },
-                      },
-                    })
-                  }
-                  className="px-3 py-2 border rounded-lg"
-                  placeholder="Valeur"
-                />
-                <input
-                  value={data.stats[key].suffix}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      stats: {
-                        ...data.stats,
-                        [key]: { ...data.stats[key], suffix: e.target.value },
-                      },
-                    })
-                  }
-                  className="px-3 py-2 border rounded-lg"
-                  placeholder="Suffixe"
-                />
-                <input
-                  value={data.stats[key].label}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      stats: {
-                        ...data.stats,
-                        [key]: { ...data.stats[key], label: e.target.value },
-                      },
-                    })
-                  }
-                  className="px-3 py-2 border rounded-lg"
-                  placeholder="Label"
-                />
-              </div>
-            ))}
-          </section>
-
-          <section className="bg-white p-6 rounded-xl shadow-md">
             <h2 className="font-display text-xl font-bold text-primary mb-4">À propos — Histoire</h2>
             <textarea
               value={data.about.history}
