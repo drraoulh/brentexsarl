@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Opérations portuaires — Placeholder",
+    "category": "Soutage",
+    "image": "/images/gallery/port-1.jpg",
+    "alt": "Navire au port de Douala — photo placeholder"
+  },
+  {
+    "id": "2",
+    "title": "Chantier BTP — Placeholder",
+    "category": "BTP",
+    "image": "/images/gallery/btp-1.jpg",
+    "alt": "Chantier de construction — photo placeholder"
+  },
+  {
+    "id": "3",
+    "title": "Installation électrique — Placeholder",
+    "category": "Électricité",
+    "image": "/images/gallery/electricite-1.jpg",
+    "alt": "Installation électrique industrielle — photo placeholder"
+  },
+  {
+    "id": "4",
+    "title": "Approvisionnement — Placeholder",
+    "category": "Centrale d'achat",
+    "image": "/images/gallery/achat-1.jpg",
+    "alt": "Logistique et approvisionnement — photo placeholder"
+  },
+  {
+    "id": "5",
+    "title": "Équipe terrain — Placeholder",
+    "category": "Équipe",
+    "image": "/images/gallery/equipe-1.jpg",
+    "alt": "Équipe BRENTEX sur chantier — photo placeholder"
+  },
+  {
+    "id": "6",
+    "title": "Travaux divers — Placeholder",
+    "category": "Réalisations",
+    "image": "/images/gallery/realisation-1.jpg",
+    "alt": "Travaux divers — photo placeholder"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Soutage navire commercial — Placeholder",
+    "client": "Compagnie maritime internationale",
+    "year": "2024",
+    "category": "Soutage",
+    "description": "Opération de bunkering au port de Douala. Détails à compléter par la Direction.",
+    "image": "/images/realisations/projet-1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Chantier bâtiment industriel — Placeholder",
+    "client": "Entreprise de construction",
+    "year": "2023",
+    "category": "BTP",
+    "description": "Construction et coordination de chantier. Détails à compléter par la Direction.",
+    "image": "/images/realisations/projet-2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Installation électrique site industriel — Placeholder",
+    "client": "Client industriel",
+    "year": "2023",
+    "category": "Électricité",
+    "description": "Mise aux normes et installation complète. Détails à compléter par la Direction.",
+    "image": "/images/realisations/projet-3.jpg"
+  }
+]

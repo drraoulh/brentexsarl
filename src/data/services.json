@@ -1,0 +1,47 @@
+[
+  {
+    "activitySlug": "centrale-achat",
+    "title": "Services — Centrale d'achat",
+    "services": [
+      { "name": "Sourcing & approvisionnement", "description": "Identification des fournisseurs, négociation et commande groupée." },
+      { "name": "Gestion des stocks", "description": "Planification et suivi des livraisons pour vos sites." },
+      { "name": "Négoce B2B", "description": "Mise en relation avec des partenaires locaux et internationaux." }
+    ]
+  },
+  {
+    "activitySlug": "btp",
+    "title": "Services — BTP",
+    "services": [
+      { "name": "Construction & gros œuvre", "description": "Réalisation de bâtiments et infrastructures." },
+      { "name": "Travaux publics", "description": "Voirie, aménagements et ouvrages techniques." },
+      { "name": "Coordination de chantier", "description": "Pilotage, planning et contrôle qualité." }
+    ]
+  },
+  {
+    "activitySlug": "electricite-plomberie",
+    "title": "Services — Électricité & Plomberie",
+    "services": [
+      { "name": "Installation électrique", "description": "Câblage, tableaux, mise aux normes." },
+      { "name": "Plomberie industrielle", "description": "Réseaux, sanitaires et maintenance." },
+      { "name": "Maintenance technique", "description": "Contrats de maintenance et dépannage." }
+    ]
+  },
+  {
+    "activitySlug": "soutage",
+    "title": "Services — Soutage maritime",
+    "services": [
+      { "name": "Bunkering / soutage", "description": "Livraison de carburant de soute aux navires." },
+      { "name": "Coordination portuaire", "description": "Interface avec autorités portuaires et armateurs." },
+      { "name": "Conformité & documentation", "description": "Traçabilité et conformité réglementaire." }
+    ]
+  },
+  {
+    "activitySlug": "realisations",
+    "title": "Services — Réalisations diverses",
+    "services": [
+      { "name": "Travaux spécifiques", "description": "Interventions ponctuelles et projets atypiques." },
+      { "name": "Sous-traitance coordonnée", "description": "Mobilisation de partenaires spécialisés." },
+      { "name": "Conseil & étude", "description": "Analyse de faisabilité et recommandations." }
+    ]
+  }
+]

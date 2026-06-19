@@ -1,0 +1,77 @@
+[
+  {
+    "id": "centrale-achat",
+    "slug": "centrale-achat",
+    "title": "Centrale d'achat",
+    "shortDescription": "Approvisionnement et négoce pour le compte de nos clients B2B.",
+    "description": "BRENTEX SARL agit en tant que centrale d'achat pour ses clients professionnels. Nous centralisons les besoins en matériaux, équipements et fournitures, négocions les meilleures conditions et assurons la livraison conforme. Ce modèle permet à nos partenaires de réduire leurs coûts d'approvisionnement tout en bénéficiant d'un interlocuteur unique et réactif.",
+    "benefits": [
+      "Pouvoir d'achat mutualisé",
+      "Interlocuteur unique",
+      "Traçabilité des commandes",
+      "Partenaires locaux et internationaux"
+    ],
+    "image": "/images/activities/centrale-achat.jpg",
+    "icon": "shopping-cart"
+  },
+  {
+    "id": "btp",
+    "slug": "btp",
+    "title": "BTP",
+    "shortDescription": "Construction, bâtiments et travaux publics pour entreprises.",
+    "description": "Nous réalisons et coordonnons des projets de construction et de travaux publics pour une clientèle professionnelle. De la préparation de chantier à la livraison, BRENTEX SARL mobilise des équipes qualifiées et des partenaires techniques pour garantir la qualité et le respect des délais.",
+    "benefits": [
+      "Gestion de chantier structurée",
+      "Respect des normes BTP",
+      "Coordination multi-corps de métier",
+      "Suivi qualité rigoureux"
+    ],
+    "image": "/images/activities/btp.jpg",
+    "icon": "hard-hat"
+  },
+  {
+    "id": "electricite-plomberie",
+    "slug": "electricite-plomberie",
+    "title": "Électricité & Plomberie",
+    "shortDescription": "Installations techniques et prestations pour entreprises.",
+    "description": "Nos équipes assurent l'installation, la maintenance et la mise en conformité des systèmes électriques et de plomberie pour des clients professionnels. Bâtiments industriels, commerciaux ou infrastructures : nous intervenons avec des standards de sécurité élevés.",
+    "benefits": [
+      "Installations conformes",
+      "Maintenance préventive",
+      "Interventions rapides",
+      "Techniciens qualifiés"
+    ],
+    "image": "/images/activities/electricite.jpg",
+    "icon": "zap"
+  },
+  {
+    "id": "soutage",
+    "slug": "soutage",
+    "title": "Approvisionnement de navires",
+    "shortDescription": "Soutage et bunkering au port de Douala pour armateurs et compagnies maritimes.",
+    "description": "BRENTEX SARL approvisionne les navires en carburant de soute au port de Douala. Nous servons les compagnies maritimes et armateurs internationaux avec une exigence particulière sur la fiabilité, la conformité réglementaire et la réactivité — des critères essentiels dans le secteur du bunkering.",
+    "benefits": [
+      "Livraison portuaire fiable",
+      "Conformité réglementaire",
+      "Réactivité opérationnelle",
+      "Clientèle maritime internationale"
+    ],
+    "image": "/images/activities/soutage.jpg",
+    "icon": "ship"
+  },
+  {
+    "id": "realisations",
+    "slug": "realisations",
+    "title": "Réalisations",
+    "shortDescription": "Travaux divers et projets sur mesure pour entreprises.",
+    "description": "Au-delà de nos domaines principaux, BRENTEX SARL prend en charge des travaux divers et des projets spécifiques pour ses clients B2B. Chaque mission fait l'objet d'une étude dédiée et d'un accompagnement personnalisé.",
+    "benefits": [
+      "Projets sur mesure",
+      "Flexibilité opérationnelle",
+      "Équipes polyvalentes",
+      "Suivi de bout en bout"
+    ],
+    "image": "/images/activities/realisations.jpg",
+    "icon": "wrench"
+  }
+]

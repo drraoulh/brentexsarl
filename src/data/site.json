@@ -1,0 +1,91 @@
+{
+  "company": {
+    "name": "BRENTEX SARL",
+    "tagline": "Fueling Serenity",
+    "description": "Centrale d'achat, BTP, électricité & plomberie, soutage maritime et réalisations diverses au service des entreprises.",
+    "founded": 2017,
+    "address": "P.O BOX 4294, Douala, Cameroun",
+    "email": "brentexsarl2017@gmail.com",
+    "phone": "+237 650 359 250",
+    "phoneRaw": "+237650359250",
+    "whatsapp": "237650359250",
+    "rccm": "RC/DLA/2017/B/782",
+    "niu": "M02171260l019E",
+    "social": {
+      "whatsapp": "https://wa.me/237650359250",
+      "facebook": "https://facebook.com/brentexsarl",
+      "linkedin": "https://linkedin.com/company/brentexsarl"
+    }
+  },
+  "announcement": {
+    "enabled": true,
+    "text": "BRENTEX SARL — Partenaire de confiance pour le soutage maritime et les projets BTP à Douala. Demandez votre devis.",
+    "link": "/contact"
+  },
+  "stats": {
+    "experience": { "value": 8, "suffix": "+", "label": "Années d'expérience" },
+    "clients": { "value": 120, "suffix": "+", "label": "Clients B2B accompagnés" },
+    "projects": { "value": 250, "suffix": "+", "label": "Projets réalisés" },
+    "note": "Chiffres provisoires — à confirmer par la Direction"
+  },
+  "about": {
+    "history": "Fondée en 2017 à Douala, BRENTEX SARL s'est imposée comme un acteur polyvalent au service des entreprises camerounaises et internationales. De la centrale d'achat au soutage de navires, en passant par le BTP et les installations techniques, nous accompagnons nos partenaires avec rigueur et réactivité.",
+    "mission": "Fournir des solutions d'approvisionnement et de réalisation fiables, conformes et réactives, pour permettre à nos clients B2B de se concentrer sur leur cœur de métier en toute sérénité.",
+    "vision": "Devenir la référence camerounaise en matière d'approvisionnement maritime, de centrale d'achat et de prestations techniques intégrées, reconnue pour sa fiabilité et son professionnalisme à l'international.",
+    "values": [
+      { "title": "Fiabilité", "description": "Des engagements tenus, des livraisons conformes et une traçabilité rigoureuse." },
+      { "title": "Réactivité", "description": "Une équipe mobilisée, notamment pour les opérations portuaires sensibles au timing." },
+      { "title": "Conformité", "description": "Respect des normes sectorielles, réglementations maritimes et exigences BTP." },
+      { "title": "Sérénité", "description": "Notre devise « Fueling Serenity » guide chaque relation client." }
+    ],
+    "keyFigures": [
+      { "label": "Année de création", "value": "2017" },
+      { "label": "Siège social", "value": "Douala, Cameroun" },
+      { "label": "Secteurs couverts", "value": "5 domaines d'activité" },
+      { "label": "Clientèle", "value": "100 % B2B" }
+    ]
+  },
+  "team": [
+    {
+      "name": "Direction Générale",
+      "role": "Fondateur & Directeur Général",
+      "bio": "Pilotage stratégique et relations partenaires internationaux. [Placeholder — à compléter]",
+      "image": "/images/team/placeholder-1.jpg"
+    },
+    {
+      "name": "Direction Opérationnelle",
+      "role": "Directeur des Opérations",
+      "bio": "Coordination des chantiers, soutage et logistique portuaire. [Placeholder — à compléter]",
+      "image": "/images/team/placeholder-2.jpg"
+    },
+    {
+      "name": "Direction Commerciale",
+      "role": "Responsable Commercial B2B",
+      "bio": "Accompagnement des entreprises et armateurs. [Placeholder — à compléter]",
+      "image": "/images/team/placeholder-3.jpg"
+    }
+  ],
+  "process": [
+    { "step": 1, "title": "Prise de contact", "description": "Vous nous transmettez votre besoin via formulaire, email ou téléphone." },
+    { "step": 2, "title": "Analyse & devis", "description": "Notre équipe étudie votre demande et vous propose une offre détaillée." },
+    { "step": 3, "title": "Planification", "description": "Validation du devis, calendrier et coordination logistique ou technique." },
+    { "step": 4, "title": "Exécution", "description": "Réalisation, livraison ou intervention selon les standards convenus." },
+    { "step": 5, "title": "Suivi", "description": "Contrôle qualité et accompagnement post-prestation." }
+  ],
+  "testimonials": [
+    {
+      "quote": "Réactivité exemplaire pour nos opérations de soutage au port de Douala. [Témoignage placeholder]",
+      "author": "Responsable logistique — Compagnie maritime",
+      "company": "Partenaire international"
+    },
+    {
+      "quote": "Un interlocuteur fiable pour nos approvisionnements BTP. [Témoignage placeholder]",
+      "author": "Chef de projet — Entreprise de construction",
+      "company": "Client BTP"
+    }
+  ],
+  "legal": {
+    "privacy": "BRENTEX SARL s'engage à protéger les données personnelles collectées via ce site. Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes et ne sont pas cédées à des tiers sans votre consentement. Conformément à la réglementation en vigueur, vous pouvez demander l'accès, la rectification ou la suppression de vos données en contactant brentexsarl2017@gmail.com.",
+    "terms": "Les informations présentes sur ce site sont fournies à titre indicatif. BRENTEX SARL se réserve le droit de modifier ses services et tarifs. Toute prestation fait l'objet d'un devis et d'un contrat spécifique. Le siège social de BRENTEX SARL est situé à Douala, Cameroun (RCCM RC/DLA/2017/B/782, NIU M02171260l019E)."
+  }
+}
