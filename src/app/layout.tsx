@@ -4,7 +4,6 @@ import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
-import { MobileCallButton } from "@/components/layout/MobileCallButton";
 import { createMetadata } from "@/lib/seo";
 import "./globals.css";
 
@@ -44,7 +43,6 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <WhatsAppButton />
-        <MobileCallButton />
       </body>
     </html>
   );
