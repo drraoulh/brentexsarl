@@ -15,7 +15,7 @@ export function Hero({ tagline, description }: HeroProps) {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(135deg, rgba(10,37,64,0.92) 0%, rgba(10,37,64,0.75) 50%, rgba(26,58,92,0.85) 100%), url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1920&q=80')",
+            "linear-gradient(135deg, rgba(0,135,203,0.92) 0%, rgba(0,135,203,0.75) 50%, rgba(0,102,153,0.85) 100%), url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?w=1920&q=80')",
         }}
         aria-hidden="true"
       />

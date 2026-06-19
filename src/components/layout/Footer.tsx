@@ -11,11 +11,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <Image src="/logo.svg" alt="BRENTEX SARL" width={40} height={40} />
+            <div className="flex items-start gap-3 mb-4">
+              <div className="bg-white rounded-lg p-2 shrink-0">
+                <Image src="/logo.png" alt="BRENTEX SARL" width={100} height={40} className="h-10 w-auto" />
+              </div>
               <div>
-                <p className="font-display text-lg font-bold">BRENTEX SARL</p>
-                <p className="text-accent text-sm">{company.tagline}</p>
+                <p className="text-accent text-sm font-medium">{company.tagline}</p>
               </div>
             </div>
             <p className="text-sky text-sm leading-relaxed">{company.description}</p>

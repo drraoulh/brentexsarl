@@ -25,21 +25,16 @@ export function Header() {
         <div className="flex h-16 md:h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/logo.svg"
-              alt="Logo BRENTEX SARL"
-              width={48}
-              height={48}
-              className="h-10 w-10 md:h-12 md:w-12"
+              src="/logo.png"
+              alt="BRENTEX SARL — Fueling Serenity"
+              width={140}
+              height={56}
+              className="h-10 md:h-12 w-auto"
               priority
             />
-            <div className="hidden sm:block">
-              <span className="font-display text-xl font-bold text-primary group-hover:text-primary-light transition-colors">
-                BRENTEX
-              </span>
-              <span className="block text-xs text-accent font-medium tracking-wider">
-                Fueling Serenity
-              </span>
-            </div>
+            <span className="hidden md:block text-xs text-slate font-medium tracking-wider border-l border-sky pl-3">
+              Fueling Serenity
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -47,14 +42,14 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-primary hover:text-accent transition-colors rounded-md hover:bg-sky"
+                className="px-3 py-2 text-sm font-medium text-primary hover:text-brentex-blue-light transition-colors rounded-md hover:bg-sky"
               >
                 {link.label}
               </Link>
             ))}
             <Link
               href="/contact"
-              className="ml-4 px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-light transition-colors"
+              className="ml-4 px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-lg hover:bg-brentex-blue-light transition-colors"
             >
               Demander un devis
             </Link>

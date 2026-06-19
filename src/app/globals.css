@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  /* Palette Maritime Classic (active) */
-  --navy: #0a2540;
-  --navy-light: #1a3a5c;
+  /* Palette alignée sur le logo BRENTEX */
+  --brentex-blue: #0087cb;
+  --brentex-blue-light: #009de0;
+  --brentex-blue-dark: #006699;
+  --brentex-black: #000000;
   --gold: #c9a227;
   --gold-light: #e8c547;
   --slate: #64748b;
@@ -13,7 +15,7 @@
   --foreground: #0f172a;
 
   --background: var(--cream);
-  --primary: var(--navy);
+  --primary: var(--brentex-blue);
   --accent: var(--gold);
 }
 
@@ -21,12 +23,13 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
-  --color-primary-light: var(--navy-light);
+  --color-primary-light: var(--brentex-blue-light);
   --color-accent: var(--accent);
   --color-accent-light: var(--gold-light);
   --color-slate: var(--slate);
   --color-cream: var(--cream);
   --color-sky: var(--sky);
+  --color-brentex-blue-light: var(--brentex-blue-light);
   --font-sans: var(--font-inter);
   --font-display: var(--font-dm-serif);
 }

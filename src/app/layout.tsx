@@ -19,11 +19,17 @@ const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = createMetadata({
-  title: "BRENTEX SARL — Centrale d'achat, BTP & Soutage maritime",
-  description:
-    "BRENTEX SARL, Fueling Serenity. Centrale d'achat, BTP, électricité & plomberie, soutage de navires et réalisations diverses à Douala, Cameroun.",
-});
+export const metadata: Metadata = {
+  ...createMetadata({
+    title: "BRENTEX SARL — Centrale d'achat, BTP & Soutage maritime",
+    description:
+      "BRENTEX SARL, Fueling Serenity. Centrale d'achat, BTP, électricité & plomberie, soutage de navires et réalisations diverses à Douala, Cameroun.",
+  }),
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
+};
 
 export default function RootLayout({
   children,
