@@ -46,9 +46,9 @@ export function ActivityPreview({ activities }: { activities: Activity[] }) {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-primary/30 group-hover:bg-primary/20 transition-colors" />
-                <div className="absolute top-4 left-4 p-2 bg-accent rounded-lg">
-                  <Icon size={20} className="text-primary" />
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
+                <div className="absolute top-4 left-4 p-2 bg-white rounded-lg">
+                  <Icon size={20} className="text-accent" />
                 </div>
               </div>
               <div className="p-6">
@@ -82,7 +82,7 @@ export function ActivityCard({ activity }: { activity: Activity }) {
       <div className="p-8">
         <div className="flex items-center gap-3 mb-4">
           <div className="p-2 bg-sky rounded-lg">
-            <Icon size={24} className="text-primary" />
+            <Icon size={24} className="text-accent" />
           </div>
           <h3 className="font-display text-2xl font-bold text-primary">{activity.title}</h3>
         </div>

@@ -8,8 +8,8 @@ export function AnnouncementBar() {
   if (!announcement.enabled) return null;
 
   return (
-    <div className="bg-accent text-primary text-sm font-medium py-2 px-4 text-center">
-      <Link href={announcement.link} className="hover:underline">
+    <div className="bg-primary text-white text-sm py-2.5 px-4 text-center">
+      <Link href={announcement.link} className="text-white/90 hover:text-accent transition-colors">
         {announcement.text}
       </Link>
     </div>

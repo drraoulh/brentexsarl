@@ -45,7 +45,7 @@ export default function RealisationsPage() {
                     className="object-cover"
                     sizes="33vw"
                   />
-                  <span className="absolute top-3 left-3 bg-accent text-primary text-xs font-medium px-2 py-1 rounded">
+                  <span className="absolute top-3 left-3 bg-accent text-white text-xs font-medium px-2 py-1 rounded">
                     {project.category}
                   </span>
                 </div>

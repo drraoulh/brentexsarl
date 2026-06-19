@@ -1,35 +1,34 @@
 @import "tailwindcss";
 
 :root {
-  /* Palette alignée sur le logo BRENTEX */
+  /* Noir dominant + bleu logo en accent */
   --brentex-blue: #0087cb;
-  --brentex-blue-light: #009de0;
-  --brentex-blue-dark: #006699;
+  --brentex-blue-light: #33a3d8;
+  --brentex-blue-dark: #006ba8;
   --brentex-black: #000000;
-  --gold: #c9a227;
-  --gold-light: #e8c547;
+  --brentex-black-light: #1a1a1a;
   --slate: #64748b;
-  --cream: #f8fafc;
-  --sky: #e8f4fc;
+  --cream: #fafafa;
+  --sky: #f4f4f5;
   --white: #ffffff;
-  --foreground: #0f172a;
+  --foreground: #111111;
 
   --background: var(--cream);
-  --primary: var(--brentex-blue);
-  --accent: var(--gold);
+  --primary: var(--brentex-black);
+  --accent: var(--brentex-blue);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
-  --color-primary-light: var(--brentex-blue-light);
+  --color-primary-light: var(--brentex-black-light);
   --color-accent: var(--accent);
-  --color-accent-light: var(--gold-light);
+  --color-accent-light: var(--brentex-blue-light);
+  --color-accent-dark: var(--brentex-blue-dark);
   --color-slate: var(--slate);
   --color-cream: var(--cream);
   --color-sky: var(--sky);
-  --color-brentex-blue-light: var(--brentex-blue-light);
   --font-sans: var(--font-inter);
   --font-display: var(--font-dm-serif);
 }
@@ -48,7 +47,6 @@ h1, h2, h3, h4 {
   font-family: var(--font-dm-serif), Georgia, serif;
 }
 
-/* Scroll reveal animation */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -60,7 +58,6 @@ h1, h2, h3, h4 {
   transform: translateY(0);
 }
 
-/* Gallery lightbox backdrop */
 .lightbox-open {
   overflow: hidden;
 }

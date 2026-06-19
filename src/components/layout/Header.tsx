@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/Button";
 
 const navLinks = [
   { href: "/", label: "Accueil" },
@@ -15,6 +16,12 @@ const navLinks = [
   { href: "/galerie", label: "Galerie" },
   { href: "/contact", label: "Contact" },
 ];
+
+const navLinkClass =
+  "px-3 py-2 text-sm font-medium text-primary hover:text-accent hover:bg-sky rounded-md transition-colors";
+
+const mobileNavLinkClass =
+  "px-4 py-3 text-primary font-medium hover:text-accent hover:bg-sky rounded-lg transition-colors";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -32,32 +39,25 @@ export function Header() {
               className="h-10 md:h-12 w-auto"
               priority
             />
-            <span className="hidden md:block text-xs text-slate font-medium tracking-wider border-l border-sky pl-3">
+            <span className="hidden md:block text-xs text-slate font-medium tracking-wider border-l border-sky pl-3 group-hover:text-accent transition-colors">
               Fueling Serenity
             </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="px-3 py-2 text-sm font-medium text-primary hover:text-brentex-blue-light transition-colors rounded-md hover:bg-sky"
-              >
+              <Link key={link.href} href={link.href} className={navLinkClass}>
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="ml-4 px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-lg hover:bg-brentex-blue-light transition-colors"
-            >
+            <Button href="/contact" size="sm" className="ml-4">
               Demander un devis
-            </Link>
+            </Button>
           </nav>
 
           <button
             type="button"
-            className="lg:hidden p-2 text-primary"
+            className="lg:hidden p-2 text-primary hover:text-accent transition-colors"
             onClick={() => setOpen(!open)}
             aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
           >
@@ -69,7 +69,7 @@ export function Header() {
       <div
         className={cn(
           "lg:hidden overflow-hidden transition-all duration-300 bg-white border-t border-sky",
-          open ? "max-h-96" : "max-h-0"
+          open ? "max-h-[28rem]" : "max-h-0"
         )}
       >
         <nav className="flex flex-col p-4 gap-1">
@@ -77,12 +77,15 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="px-4 py-3 text-primary font-medium hover:bg-sky rounded-lg"
+              className={mobileNavLinkClass}
               onClick={() => setOpen(false)}
             >
               {link.label}
             </Link>
           ))}
+          <Button href="/contact" className="mt-2 w-full">
+            Demander un devis
+          </Button>
         </nav>
       </div>
     </header>

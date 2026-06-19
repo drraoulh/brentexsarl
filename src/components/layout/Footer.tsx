@@ -71,7 +71,7 @@ export function Footer() {
                 href={company.social.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-primary transition-colors"
+                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-white transition-colors"
                 aria-label="WhatsApp"
               >
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">
@@ -82,7 +82,7 @@ export function Footer() {
                 href={company.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-primary transition-colors"
+                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-white transition-colors"
                 aria-label="Facebook"
               >
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">
@@ -93,7 +93,7 @@ export function Footer() {
                 href={company.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-primary transition-colors"
+                className="p-2 bg-white/10 rounded-lg hover:bg-accent hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">

@@ -33,7 +33,7 @@ export default function HomePage() {
             <ScrollReveal key={item.title}>
               <div className="text-center p-8 rounded-xl bg-cream">
                 <div className="inline-flex p-3 bg-sky rounded-full mb-4">
-                  <item.icon size={28} className="text-primary" />
+                  <item.icon size={28} className="text-accent" />
                 </div>
                 <h3 className="font-display text-xl font-bold text-primary">{item.title}</h3>
                 <p className="mt-2 text-slate">{item.desc}</p>

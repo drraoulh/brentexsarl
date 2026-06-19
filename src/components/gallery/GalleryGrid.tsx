@@ -31,9 +31,9 @@ export function GalleryGrid({ items }: { items: GalleryItem[] }) {
             type="button"
             onClick={() => setFilter(cat)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-              filter === cat
+                filter === cat
                 ? "bg-primary text-white"
-                : "bg-white text-primary hover:bg-sky"
+                : "bg-white text-primary hover:bg-sky border border-sky"
             }`}
           >
             {cat}
@@ -56,9 +56,9 @@ export function GalleryGrid({ items }: { items: GalleryItem[] }) {
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 768px) 100vw, 33vw"
               />
-              <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-colors flex items-end">
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-end">
                 <div className="p-4 translate-y-full group-hover:translate-y-0 transition-transform">
-                  <span className="text-xs bg-accent text-primary px-2 py-1 rounded">{item.category}</span>
+                  <span className="text-xs bg-accent text-white px-2 py-1 rounded">{item.category}</span>
                   <p className="text-white font-medium mt-1 text-sm">{item.title}</p>
                 </div>
               </div>

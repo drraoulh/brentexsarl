@@ -70,7 +70,7 @@ export default function ServicesPage() {
           {site.process.map((step) => (
             <ScrollReveal key={step.step}>
               <div className="relative text-center p-6">
-                <div className="w-12 h-12 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
+                <div className="w-12 h-12 mx-auto bg-accent text-white rounded-full flex items-center justify-center font-bold text-lg">
                   {step.step}
                 </div>
                 <h4 className="mt-4 font-display font-bold text-primary">{step.title}</h4>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-type ButtonVariant = "primary" | "secondary" | "outline" | "ghost";
+type ButtonVariant = "primary" | "secondary" | "outline" | "outline-light" | "ghost";
 type ButtonSize = "sm" | "md" | "lg";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,10 +12,16 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variants: Record<ButtonVariant, string> = {
-  primary: "bg-primary text-white hover:bg-primary-light shadow-md",
-  secondary: "bg-accent text-primary hover:bg-accent-light shadow-md",
-  outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white",
-  ghost: "text-primary hover:bg-sky",
+  primary:
+    "bg-accent text-white hover:bg-accent-dark hover:text-white shadow-sm hover:shadow-md",
+  secondary:
+    "bg-primary text-white hover:bg-primary-light hover:text-white shadow-sm hover:shadow-md",
+  outline:
+    "border-2 border-accent text-accent bg-transparent hover:bg-accent hover:text-white hover:border-accent",
+  "outline-light":
+    "border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary hover:border-white",
+  ghost:
+    "text-primary bg-transparent hover:text-accent hover:bg-sky",
 };
 
 const sizes: Record<ButtonSize, string> = {
@@ -33,7 +39,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const classes = cn(
-    "inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2",
+    "inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:ring-offset-2",
     variants[variant],
     sizes[size],
     className

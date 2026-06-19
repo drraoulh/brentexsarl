@@ -49,7 +49,7 @@ export default async function ActivityDetailPage({
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-primary/60 flex items-end">
+        <div className="absolute inset-0 bg-black/60 flex items-end">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-8 w-full">
             <Link href="/activites" className="inline-flex items-center gap-1 text-sky text-sm mb-2 hover:text-accent">
               <ArrowLeft size={16} /> Retour aux activités
